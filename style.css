@@ -1,0 +1,150 @@
+*  {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+a{
+    text-decoration: none;
+
+}
+h1{
+    font-family: 'Bangers', sans-serif;
+}
+
+h2{
+    font-size: 20px;
+    margin-left: 25vh;   
+    margin-top: 23vh; 
+}
+ul, ol, li {
+    list-style: none;
+}
+html, body{
+    scroll-behavior: smooth;
+}
+header{
+    position: fixed;
+    background-color: #333;
+    width: 100vw;
+}
+header nav ul{
+    display: flex;
+    margin-left: 130VH;
+    justify-content: space-between;
+    padding: 16px;
+
+}
+header nav a {
+    color: white;
+    padding: 8px;
+    transition: background-color 1s;
+}
+header nav a:hover{
+    background-color: rgba(87, 82, 91, 0.48);
+    color: black;
+
+}
+.grupo {
+    height: 100vh;
+}
+
+#vermelho{
+    background-image: url(./img/konoha-1279-x-718-kwldytpkkc1uo4qb-photoaidcom-darken.webp) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#verde{
+    background-image: url(./img/naruto-and-neji-chunin-d8ekdhs4t7ei4x2x-photoaidcom-darken.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#azul{
+    background-image: url(./img/Gamabunta_vs_Shukaku-photoaidcom-darken.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#amarelo{
+    background-image: url(./img/Rozstanie-photoaidcom-darken.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#roxo{
+    background-image: url(./img/i-finished-nns2-naruto-vs-pain-v0-o2rg82lqn6id1-photoaidcom-darken.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.skin2{
+    width: 70vh;        
+    float:left;
+    display: flex;
+    margin-top: 10vh;
+    margin-left: 5vw;
+}
+.skin3{
+    width: 40vw;
+    float:left;
+    display: flex;
+    align-items: center;
+    margin-left: 12vh;
+    margin-top: 14vw;
+   
+}
+.skin4{
+    width: 37vw;
+    float:right;
+    display: flex;
+    margin-right: 62vh;
+    margin-top: 1vh;
+
+}
+.skin5{
+    width: 25vw;
+    float: right;
+    display: flex;
+     margin-right: 40vh;
+     margin-top: 8vh;
+}
+.skin6{
+    width: 40vw;
+    float: right;
+    display: flex;
+    align-items: center;
+    margin-right: 1vh;   
+}
+
+.titulo1{
+    position: relative;
+    top: 80px;
+    margin-left: 25vh;
+    font-size: 80px;
+    color: rgb(0, 0, 0);
+    
+}
+.titulo2{
+    position: relative;
+    top: 550px;
+    text-align: right;
+    margin-right: 30vh;
+    font-size: 200px;
+}
+.titulo3{
+    position: relative;
+    top: 550px;
+    font-size: 100px;
+    text-align: center;
+    
+}
+.titulo4{
+    position: relative;
+    top: -800px;
+    text-align: right;
+    margin-left: 20vh;
+    font-size: 200px;
+}
+.titulo5{
+    position: relative;
+    top: 800px;
+    margin-left: 10vw;
+    font-size: 200px;
+}
